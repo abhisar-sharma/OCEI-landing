@@ -562,6 +562,30 @@
 
     .btn-white:hover { opacity: 0.85; }
 
+    .btn-white-outline {
+      display: inline-block;
+      background: transparent;
+      color: var(--paper);
+      padding: 0.9rem 2.5rem;
+      font-size: 0.85rem;
+      font-weight: 500;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      text-decoration: none;
+      border: 1px solid rgba(245,240,232,0.5);
+      transition: border-color 0.2s, opacity 0.2s;
+      margin-top: 1rem;
+    }
+
+    .btn-white-outline:hover { border-color: var(--paper); opacity: 0.85; }
+
+    .cta-actions {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 0.75rem;
+    }
+
     /* ── FOOTER ── */
     footer {
       padding: 2rem 4rem;
@@ -625,7 +649,7 @@
   <!-- NAV -->
   <nav>
     <div class="nav-logo"><span>OCEI</span> Operational Cost Exposure Index</div>
-    <a href="https://www.linkedin.com/in/abhisar-sharma-b-eng-mba-548a2116" class="nav-cta" target="_blank">Connect on LinkedIn</a>
+    <a href="https://www.evolvegroup.ai/ocei" class="nav-cta" target="_blank">Request a Diagnostic</a>
   </nav>
 
   <!-- HERO -->
@@ -780,14 +804,17 @@
   <!-- CTA -->
   <section class="cta-section fade-up" id="contact">
     <h2>Ready to see what your system is really costing you?</h2>
-    <p>Connect with Abhisar Sharma to request an OCEI diagnostic session for your organization.</p>
-    <a href="https://www.linkedin.com/in/abhisar-sharma-b-eng-mba-548a2116" class="btn-white" target="_blank">Connect on LinkedIn →</a>
+    <p>Request an OCEI diagnostic through Evolve Advisory Group — Business Central advisory for inventory-driven organizations.</p>
+    <div class="cta-actions">
+      <a href="https://www.evolvegroup.ai/ocei" class="btn-white" target="_blank">Request a Diagnostic — evolvegroup.ai</a>
+      <a href="https://www.linkedin.com/in/abhisar-sharma-b-eng-mba-548a2116" class="btn-white-outline" target="_blank">Connect directly with Abhisar Sharma on LinkedIn</a>
+    </div>
   </section>
 
   <!-- FOOTER -->
   <footer>
     <div class="footer-logo"><span>OCEI</span> Operational Cost Exposure Index</div>
-    <p>Developed by <a href="https://www.linkedin.com/in/abhisar-sharma-b-eng-mba-548a2116" target="_blank">Abhisar Sharma, B.Eng, MBA</a></p>
+    <p>Developed by <a href="https://www.linkedin.com/in/abhisar-sharma-b-eng-mba-548a2116" target="_blank">Abhisar Sharma, B.Eng, MBA</a> &middot; Delivered through <a href="https://www.evolvegroup.ai" target="_blank">Evolve Advisory Group</a></p>
     <p>© 2025 All rights reserved</p>
   </footer>
 
